@@ -7,5 +7,13 @@ FETCHCONTENT_MAKEAVAILABLE (SFML)
 set (CMAKE_CXX_STANDARD 17)
 add_executable(kolok2
         main.cpp
+        Point.h
+        PlaneEquation.h
+        Sphere.h
+        Circle.h
+        LineEquation.h
+        Rectangle.h
+        Cube.h
+        MathTools.h
 )
 target_link_libraries (kolok2 sfml-graphics)
